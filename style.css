@@ -7,10 +7,14 @@ footer{
 
 .products{
     background-color: #E4DFDA;
+    border-bottom: 5px solid #2d2523;
+    border-top: 5px solid #2d2523;
 }
 
 .checkout{
     background-color: #a25e49;
     min-height: calc(90.1vh);
     border-left: 5px solid #2d2523;
+    border-bottom: 5px solid #2d2523;
+    border-top: 5px solid #2d2523;
 }
