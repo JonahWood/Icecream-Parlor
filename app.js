@@ -35,3 +35,30 @@ const containers = [{
     image: 'https://images.unsplash.com/photo-1510035618584-c442b241abe7?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=696&q=80',
     price: 4
 }]
+
+function drawIceCream() {
+
+}
+function drawToppings() {
+
+}
+function drawContainers() {
+
+}
+function calculateCartTotal(){
+
+}
+function checkout(){
+
+}
+
+
+
+
+
+
+
+
+drawContainers()
+drawToppings()
+drawIceCream()
