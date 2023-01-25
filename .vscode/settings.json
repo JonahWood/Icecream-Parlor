@@ -1,0 +1,25 @@
+{
+    "workbench.colorCustomizations": {
+        "activityBar.activeBackground": "#89e1ef",
+        "activityBar.background": "#89e1ef",
+        "activityBar.foreground": "#15202b",
+        "activityBar.inactiveForeground": "#15202b99",
+        "activityBarBadge.background": "#e857d4",
+        "activityBarBadge.foreground": "#15202b",
+        "commandCenter.border": "#15202b99",
+        "sash.hoverBorder": "#89e1ef",
+        "statusBar.background": "#5cd6e9",
+        "statusBar.foreground": "#15202b",
+        "statusBarItem.hoverBackground": "#2fcbe3",
+        "statusBarItem.remoteBackground": "#5cd6e9",
+        "statusBarItem.remoteForeground": "#15202b",
+        "titleBar.activeBackground": "#5cd6e9",
+        "titleBar.activeForeground": "#15202b",
+        "titleBar.inactiveBackground": "#5cd6e999",
+        "titleBar.inactiveForeground": "#15202b99"
+    },
+    "peacock.color": "#5cd6e9",
+    "cSpell.words": [
+        "Icecream"
+    ]
+}
