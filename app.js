@@ -36,22 +36,65 @@ const containers = [{
     price: 4
 }]
 
-function drawIceCream() {
+const cart = []
 
+
+function drawIceCream() {
+    let storeElem = document.getElementById('cream-cards')
+    let template = ''
+  
+    for (let i = 0; i < store.length; i++) {
+      const product = store[i];
+      template += `
+      <div class="col-md-6 col-lg-4 my-3">
+        <div class="card product-card">
+          <img src="${product.image}" alt="${product.name}">
+          <div class="card-body">
+            <div class="d-flex align-items-center justify-content-between">
+              <p><b>${product.name}</b></p>
+              <p>$${product.price}</p>
+            </div>
+            <button 
+              class="btn btn-outline-secondary" 
+              title="Add to cart"
+              onclick="addItemToCart('${product.sku}')"
+              >
+              <i class="mdi mdi-cart"></i>
+              <small>ADD</small>
+            </button>
+          </div>
+        </div>
+      </div>`
+    }
 }
 function drawToppings() {
-
+    
 }
 function drawContainers() {
 
 }
 function calculateCartTotal(){
-
+    
 }
 function checkout(){
 
 }
 
+function cart(){
+    let creamElem = document.getElementById('cream')
+    let cartTotalElem = document.getElementById('cart-total')
+    let template = ''
+
+    cart.forEach(item => {
+    template += `<div>${item.name} - ${item.quantity} 
+    <button 
+        onclick="removeItem('${item.sku}')" 
+        class="btn btn-danger"> <i class="mdi mdi-delete-forever"></i> </button></div>`
+    })
+    let total = calculateCartTotal()
+    creamElem.innerHTML = template
+    creamTotalElem.innerText = total.toFixed(2)
+}
 
 
 
